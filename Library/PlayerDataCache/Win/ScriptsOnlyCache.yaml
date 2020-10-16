@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -23,7 +22,6 @@ ScriptsOnlyBuild:
     UnityEditor.TestRunner.dll:
     - TestRunner.Callbacks.WindowResultUpdaterDataHolder
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     - UnityEditor.TestTools.TestRunner.TestRunnerWindow
@@ -59,7 +57,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 598}
+      Script: {instanceID: 600}
     - Class: 114
       Script: {instanceID: 11734}
     - Class: 114
@@ -67,15 +65,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13868}
     - Class: 114
-      Script: {instanceID: 14392}
+      Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 14484}
+      Script: {instanceID: 14394}
     - Class: 114
-      Script: {instanceID: 15028}
+      Script: {instanceID: 14486}
     - Class: 114
-      Script: {instanceID: 19982}
+      Script: {instanceID: 15030}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -399,6 +397,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -595,14 +599,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/Tutorial_2_Scene.unity
-  playerPath: C:/Users/X12GD/UNITY PROJECTS/UCF/DIG3480 Tutorial 2/Tutorial 2 Build/DIG3480
-    Tutorial 2.exe
+  playerPath: C:/Users/X12GD/UNITY PROJECTS/DIG3480 Tutorial 2.exe
